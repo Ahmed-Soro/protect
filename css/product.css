@@ -1,0 +1,122 @@
+body{
+    padding:0;
+    margin:0;
+    width:100%;
+    height:1000px;
+    background-color:rgba(0, 0, 0, 0.212)
+    
+
+}
+.container{
+   
+    width:240px;
+    height:350px;
+  display: inline-block;
+    text-align: center;
+    margin:20px;
+    background-color: rgba(63, 142, 148, 0.904);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+  
+}
+img{
+    width:180px;
+   height: 180px;
+    padding:20px 20px 0 20px;
+    border-radius: 20px;
+    
+}
+
+.moon{
+    
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    width:100%;
+    height:100%;
+    border-top: #333 solid;
+
+    
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.mn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0 auto;
+    padding: 0 20px;
+   
+}
+
+.logo {
+    margin: 0;
+    padding:0;
+    font-size: 24px;
+    border: #fff 1px solid;
+    border-radius: 5px;
+    
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    
+}
+
+.nav-links li {
+    margin: 25px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ffcc00;
+}
+label{
+    font-size: 25px;
+}
+input{
+    background-color: aliceblue;
+    width:400px;
+    height:25px;
+    border-radius: 10px;
+}
+h1{
+   text-align: center;
+    border:#333 solid 5px;
+    border-radius: 5px;
+}
+
+h1:hover{
+    color:aqua;
+} 
+a{
+    padding:7px;
+    text-decoration: none;
+    background-color: #333;
+    border-radius:10px;
+    color: #fff;
+
+}
+label:hover{
+    color:#ffcc00;
+}
+.logo:hover{
+    color:aqua;
+
+}
